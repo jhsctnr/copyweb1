@@ -3,6 +3,7 @@
   width: 100%;
   height: 80px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  transition: background-color 0.4s ease-in-out;
 }
 
 .nav-container {
@@ -39,11 +40,13 @@
   width: 100%;
   height: 100%;
   line-height: 78px;
+  transition: color 0.4s ease-in-out;
 }
 
 .nav-subMenu_list {
-  height: 266px;
+  height: 190px;
   padding-top: 5px;
+  display: none;
 }
 
 .nav-subMenu_listItem {
@@ -69,6 +72,7 @@
 }
 
 .nav-slide-container {
+  display: none;
   overflow: hidden;
   height: 190px;
   width: 100%;
@@ -115,4 +119,12 @@
   width: 65%;
   float: right;
   padding-left: 120px;
+}
+
+.header-container.active {
+  background-color: #fff;
+}
+
+.header-container.active .nav-menu_listItem > a {
+  color: black;
 }

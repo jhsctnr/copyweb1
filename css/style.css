@@ -2,4 +2,7 @@
 
 /* Components */
 @import "components/banner.css";
-@import "components/header.css"; /* Screens */
+@import "components/header.css";
+
+/* Screens */
+@import "screens/index.css";
