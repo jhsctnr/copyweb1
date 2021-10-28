@@ -1,0 +1,118 @@
+.header-container {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav-container {
+  width: 1200px;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  z-index: 999;
+}
+
+.nav-logo {
+  float: left;
+  margin-top: 25px;
+}
+
+.nav-menu {
+  float: right;
+  height: 100%;
+}
+
+.nav-menu_listItem {
+  float: left;
+  text-align: center;
+  width: 110px;
+  height: 100%;
+}
+
+.nav-menu_listItem > a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  line-height: 78px;
+}
+
+.nav-subMenu_list {
+  height: 266px;
+  padding-top: 5px;
+}
+
+.nav-subMenu_listItem {
+  width: 100%;
+  height: 45px;
+  display: inline-block;
+}
+
+.nav-subMenu_listItem a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  padding: 5px 0;
+}
+
+.floatClear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.nav-slide-container {
+  overflow: hidden;
+  height: 190px;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 81px;
+  left: 0;
+  right: 0;
+  z-index: 9;
+}
+
+.nav-slide-subMenu-container {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.nav-slide-subMenu_left {
+  float: left;
+  width: 35%;
+  height: 100%;
+  background: url(/img/gnbHover_img.png) bottom right no-repeat;
+  padding-left: 10px;
+}
+
+.nav-slide-subMenu_left h2 {
+  font-size: 22px;
+  color: #444;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+.nav-slide-subMenu_left h2::before {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 3px;
+  background-color: #38a1db;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav-slide-subMenu_space {
+  width: 65%;
+  float: right;
+  padding-left: 120px;
+}

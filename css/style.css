@@ -1,0 +1,5 @@
+@import "reset.css";
+
+/* Components */
+@import "components/banner.css";
+@import "components/header.css"; /* Screens */
