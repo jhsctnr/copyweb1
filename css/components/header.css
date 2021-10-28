@@ -94,8 +94,7 @@
   float: left;
   width: 35%;
   height: 100%;
-  background: url(https://github.com/hsC0de/copyweb1/blob/be021c56b7572ba5ffca4b91e78708df0b8e732c/img/gnbHover_img.png)
-    bottom right no-repeat;
+  background: url(/img/gnbHover_img.png) bottom right no-repeat;
   padding-left: 10px;
 }
 
