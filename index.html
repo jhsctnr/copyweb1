@@ -19,7 +19,9 @@
           <div class="nav-container">
             <h1 class="nav-logo">
               <a href="index.html"
-                ><img src="/img/paru.png" alt="파루씨앤씨 로고"
+                ><img
+                  src="https://github.com/hsC0de/copyweb1/blob/main/img/paru.png"
+                  alt="파루씨앤씨 로고"
               /></a>
             </h1>
             <ul class="nav-menu floatClear">
@@ -233,14 +235,20 @@
     <script>
       $(function () {
         function handleMouseoverSlider(e) {
-          $(".nav-logo a img").attr("src", "/img/paru_logo.png");
+          $(".nav-logo a img").attr(
+            "src",
+            "https://github.com/hsC0de/copyweb1/blob/main/img/paru_logo.png"
+          );
           $(".header-container").addClass("active");
           $(".nav-slide-container").slideDown("fast");
           $(".nav-subMenu_list").slideDown("fast");
         }
 
         function handleMouseleaveSlider(e) {
-          $(".nav-logo a img").attr("src", "/img/paru.png");
+          $(".nav-logo a img").attr(
+            "src",
+            "https://github.com/hsC0de/copyweb1/blob/main/img/paru.png"
+          );
           $(".header-container").removeClass("active");
           $(".nav-slide-container").slideUp("fast");
           $(".nav-subMenu_list").slideUp("fast");
